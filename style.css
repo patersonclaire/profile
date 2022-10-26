@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  text-align: center;
+}
+
+.card {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: rgb(245, 228, 207);
+  color: rgb(45, 32, 18);
+  text-align: center;
+  line-height: 35px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: solid 1px whitesmoke;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgb(79, 79, 3);
+}
+
+button {
+  background-color: rgb(156, 153, 119);
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: darkkhaki;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1100px;
+}
+
+.horizontal-list {
+  display: flex;
+  justify-content: space-evenly;
+  /* list-style-type: disc; */
+}
